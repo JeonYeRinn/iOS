@@ -14,6 +14,7 @@
 		1E02CF57263FBA3300D69B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E02CF56263FBA3300D69B5D /* Assets.xcassets */; };
 		1E02CF5A263FBA3300D69B5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E02CF58263FBA3300D69B5D /* LaunchScreen.storyboard */; };
 		1E02CF6A2643A08000D69B5D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02CF692643A08000D69B5D /* Model.swift */; };
+		1E02CF6D2643ACC000D69B5D /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02CF6C2643ACC000D69B5D /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1E02CF59263FBA3300D69B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E02CF5B263FBA3300D69B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E02CF692643A08000D69B5D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1E02CF6C2643ACC000D69B5D /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1E02CF58263FBA3300D69B5D /* LaunchScreen.storyboard */,
 				1E02CF5B263FBA3300D69B5D /* Info.plist */,
 				1E02CF53263FBA2300D69B5D /* Memo.xcdatamodeld */,
+				1E02CF6C2643ACC000D69B5D /* MemoListTableViewController.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				1E02CF4B263FBA2300D69B5D /* AppDelegate.swift in Sources */,
 				1E02CF4D263FBA2300D69B5D /* SceneDelegate.swift in Sources */,
+				1E02CF6D2643ACC000D69B5D /* MemoListTableViewController.swift in Sources */,
 				1E02CF55263FBA2300D69B5D /* Memo.xcdatamodeld in Sources */,
 				1E02CF6A2643A08000D69B5D /* Model.swift in Sources */,
 			);
